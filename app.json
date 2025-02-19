@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AniTube",
-    "slug": "aniTube",
+    "slug": "anitube",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -48,8 +48,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "36fcad3f-cad5-4d56-aeb9-d164ab60aa0c"
+        "projectId": "f1b6578b-b098-453c-9932-fb2db823bf39"
       }
-    }
+    },
+    "owner": "error-404-team-not-found"
   }
 }
