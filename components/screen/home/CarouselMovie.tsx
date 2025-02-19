@@ -1,5 +1,10 @@
 import { dimensionsWidth } from "@/constants/resize";
-import React, { useState, useRef } from "react";
+import React, {
+  useState,
+  useRef,
+  forwardRef,
+  useImperativeHandle,
+} from "react";
 import {
   StyleSheet,
   View,
@@ -9,8 +14,35 @@ import {
 } from "react-native";
 import { ExpoImage } from "@/components/ExpoImage";
 import { LinearGradient } from "expo-linear-gradient";
+import { useColorScheme } from "@/hooks/useColorScheme";
+
+const Pagination = forwardRef(({ data }: { data: any }, ref) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  // Expose setActiveIndex to parent component via ref
+  useImperativeHandle(ref, () => ({
+    setActiveIndex: (index: number) => {
+      if (index >= 0 && index < data.length) {
+        setActiveIndex(index);
+      }
+    },
+  }));
+
+  return (
+    <View style={styles.pagination}>
+      {data.map((_: any, index: number) => (
+        <View
+          key={index}
+          style={[styles.dot, activeIndex === index && styles.activeDot]}
+        />
+      ))}
+    </View>
+  );
+});
 
 export function CarouselMovie() {
+  const colorScheme = useColorScheme();
+
   const data = [
     {
       id: "1",
@@ -29,13 +61,13 @@ export function CarouselMovie() {
     },
   ];
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  const paginationRef = useRef<any>(null);
   const scrollViewRef = useRef(null);
 
   const handleScroll = (event: NativeSyntheticEvent<NativeScrollEvent>) => {
     const slideSize = event.nativeEvent.layoutMeasurement.width;
     const index = Math.round(event.nativeEvent.contentOffset.x / slideSize);
-    setActiveIndex(index);
+    paginationRef.current?.setActiveIndex(index);
   };
 
   return (
@@ -54,23 +86,10 @@ export function CarouselMovie() {
         {data.map((item) => (
           <View key={item.id} style={styles.carouselItem}>
             <ExpoImage source={item.image} style={styles.carouselImage} />
-            <LinearGradient
-              colors={["transparent", "rgba(0, 0, 0, 0.7)"]}
-              style={styles.gradientBottom}
-              start={{ x: 0.5, y: 1 }}
-              end={{ x: 0.5, y: 0.7 }}
-            />
           </View>
         ))}
       </ScrollView>
-      <View style={styles.pagination}>
-        {data.map((_, index) => (
-          <View
-            key={index}
-            style={[styles.dot, activeIndex === index && styles.activeDot]}
-          />
-        ))}
-      </View>
+      <Pagination ref={paginationRef} data={data} />
     </View>
   );
 }
@@ -89,13 +108,13 @@ const styles = StyleSheet.create({
     height: 250,
     justifyContent: "center",
     alignItems: "center",
+    paddingHorizontal: 16,
   },
   carouselImage: {
-    // maxWidth: 430,
-    width: dimensionsWidth,
-    height: 250,
+    width: dimensionsWidth - 32,
+    height: 242,
     resizeMode: "cover",
-    // borderRadius: 8,
+    borderRadius: 8,
   },
   pagination: {
     flexDirection: "row",

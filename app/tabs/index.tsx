@@ -5,11 +5,15 @@ import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import { CarouselMovie } from "@/components/screen/home/CarouselMovie";
+import { Colors } from "@/constants/Colors";
 
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: "#A1CEDC", dark: "#1D3D47" }}
+      headerBackgroundColor={{
+        light: Colors.light.background,
+        dark: Colors.dark.background,
+      }}
       headerImage={<CarouselMovie />}
     ></ParallaxScrollView>
   );
