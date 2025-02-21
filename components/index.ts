@@ -9,3 +9,5 @@ export * from "./ThemedText";
 export * from "./ThemedView";
 export * from "./ui/IconSymbol";
 export * from "./ui/TabBarBackground";
+export * from "./Button";
+export * from "./ButtonIcon";

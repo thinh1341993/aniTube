@@ -1,3 +1,4 @@
+import { ButtonIcon, Collapsible, IconSymbol } from "@/components";
 import { Button } from "@/components/Button";
 import { $styles } from "@/constants/Styles";
 import i18n, { tx } from "@/i18n/i18n";
@@ -13,11 +14,19 @@ export const HeaderHome = forwardRef(
     useImperativeHandle(ref, () => ({}));
 
     return (
-      <View style={$styles.row}>
+      <View style={[$styles.row, styles.container]}>
         <Button>{tx("login")}</Button>
+        <View style={[$styles.row]}>
+          <ButtonIcon name="search" size={28} />
+          <ButtonIcon name="notifications" size={28} />
+        </View>
       </View>
     );
   }
 );
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    justifyContent: "space-between",
+  },
+});

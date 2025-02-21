@@ -48,7 +48,7 @@ export const palette = {
 export const Colors = {
   light: {
     tint: tintColorLight,
-    icon: "#687076",
+    icon: "#FF4500",
     tabIconDefault: "#687076",
     tabIconSelected: tintColorLight,
 
@@ -75,7 +75,7 @@ export const Colors = {
   },
   dark: {
     tint: tintColorDark,
-    icon: "#9BA1A6",
+    icon: "#ECEDEE",
     tabIconDefault: "#9BA1A6",
     tabIconSelected: tintColorDark,
 
