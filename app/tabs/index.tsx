@@ -6,16 +6,15 @@ import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import { CarouselMovie } from "@/components/screen/home/CarouselMovie";
 import { Colors } from "@/constants/Colors";
+import { ScreenView } from "@/components";
+import { HeaderHome } from "@/components/screen/home";
 
 export default function HomeScreen() {
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{
-        light: Colors.light.background,
-        dark: Colors.dark.background,
-      }}
-      headerImage={<CarouselMovie />}
-    ></ParallaxScrollView>
+    <ScreenView>
+      <HeaderHome />
+      <CarouselMovie />
+    </ScreenView>
   );
 }
 

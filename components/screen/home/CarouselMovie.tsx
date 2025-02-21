@@ -1,4 +1,4 @@
-import { dimensionsWidth } from "@/constants/resize";
+import { dimensionsWidth } from "@/constants/Resize";
 import React, {
   useState,
   useRef,
@@ -14,7 +14,7 @@ import {
 } from "react-native";
 import { ExpoImage } from "@/components/ExpoImage";
 import { LinearGradient } from "expo-linear-gradient";
-import { useColorScheme } from "@/hooks/useColorScheme";
+import { useThemeColor } from "@/hooks/useThemeColor";
 
 const Pagination = forwardRef(({ data }: { data: any }, ref) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -41,7 +41,7 @@ const Pagination = forwardRef(({ data }: { data: any }, ref) => {
 });
 
 export function CarouselMovie() {
-  const colorScheme = useColorScheme();
+  const colorScheme = useThemeColor().themeName;
 
   const data = [
     {
