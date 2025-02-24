@@ -22,7 +22,11 @@
     "build:android:prod": "eas build --platform android --profile production",
     "bundle:web": "npx expo export --platform web",
     "serve:web": "npx server dist",
-    "prebuild:clean": "npx expo prebuild --clean"
+    "prebuild:clean": "npx expo prebuild --clean",
+    "eslint": "npx eslint .",
+    "eslint:fix": "npx eslint . --fix",
+    "prettier": "npx prettier --write .",
+    "prepare": "husky install"
   },
   "jest": {
     "preset": "jest-expo"
@@ -61,16 +65,39 @@
     "react-native-webview": "13.12.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
+    "@babel/core": "^7.26.9",
+    "@babel/eslint-parser": "^7.26.8",
+    "@babel/preset-env": "^7.26.9",
     "@types/i18n-js": "^4.0.1",
     "@types/jest": "^29.5.12",
     "@types/react": "~18.3.12",
     "@types/react-native": "^0.73.0",
     "@types/react-test-renderer": "^18.3.0",
+    "babel-preset-expo": "^12.0.9",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-native": "^5.0.0",
+    "husky": "^8.0.0",
     "jest": "^29.2.1",
     "jest-expo": "~52.0.4",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.2",
     "react-test-renderer": "18.3.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.7.3"
   },
-  "private": true
+  "private": true,
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.json": [
+    "prettier --write",
+    "git add"
+    ]
+  }
 }
