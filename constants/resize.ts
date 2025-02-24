@@ -1,7 +1,7 @@
-import { Dimensions, Platform } from "react-native";
+import { Dimensions, Platform } from 'react-native';
 // import DeviceInfo from "react-native-device-info"
 
-const { width, height } = Dimensions.get("window");
+const { width, height } = Dimensions.get('window');
 
 const DESIGN_WIDTH = 375;
 const DESIGN_HEIGHT = 812;
@@ -38,5 +38,5 @@ export const verticalScale = (size: number) => (height / DESIGN_HEIGHT) * size;
 //   isTabletOrIpad() && width > DESIGN_IPAD_WIDTH ? DESIGN_IPAD_WIDTH : width
 export const dimensionsWidth = width;
 export const dimensionsHeight = height;
-export const widthScreenFull = Dimensions.get("screen").width;
-export const heightScreenFull = Dimensions.get("screen").height;
+export const widthScreenFull = Dimensions.get('screen').width;
+export const heightScreenFull = Dimensions.get('screen').height;

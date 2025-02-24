@@ -3,15 +3,14 @@
  * https://docs.expo.dev/guides/color-schemes/
  */
 
-import { Colors, palette } from "@/constants/Colors";
-import { spacing } from "@/constants/Spacing";
-import { useColorScheme } from "@/hooks/useColorScheme";
-import React from "react";
-import { useCallback, useState } from "react";
-import { ColorSchemeName, StyleProp } from "react-native";
+import { Colors, palette } from '@/constants/Colors';
+import { spacing } from '@/constants/Spacing';
+import { useColorScheme } from '@/hooks/useColorScheme';
+import React, { useCallback, useState } from 'react';
+import { ColorSchemeName, StyleProp } from 'react-native';
 
 type ThemeColors = typeof Colors.light & typeof Colors.dark;
-type ThemeName = "light" | "dark";
+type ThemeName = 'light' | 'dark';
 export interface Theme {
   colors: ThemeColors;
   palette: typeof palette;
@@ -39,11 +38,11 @@ export function useThemeColor(
   colorName?: keyof typeof Colors.light & keyof typeof Colors.dark
 ): UseAppThemeValue {
   const [themeName, setThemeName] = useState<ThemeName>(
-    useColorScheme() ?? "dark"
+    useColorScheme() ?? 'dark'
   );
   const themeColors = Colors[themeName];
   const colorFromProps =
-    props?.[themeName] || Colors[themeName][colorName || "primaryAccent"];
+    props?.[themeName] || Colors[themeName][colorName || 'primaryAccent'];
 
   const setThemeContextOverride = useCallback((newTheme: ThemeName) => {
     setThemeName(newTheme);
@@ -55,7 +54,7 @@ export function useThemeColor(
     ) => {
       const flatStyles = [styleOrStyleFn].flat(3);
       const stylesArray = flatStyles.map((f) => {
-        if (typeof f === "function") {
+        if (typeof f === 'function') {
           return (f as ThemedStyle<T>)({
             colors: themeColors,
             palette,

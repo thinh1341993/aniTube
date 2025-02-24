@@ -1,5 +1,5 @@
-import { forwardRef, useImperativeHandle } from "react";
-import { View, StyleSheet } from "react-native";
+import { forwardRef, useImperativeHandle } from 'react';
+import { View, StyleSheet } from 'react-native';
 
 type ExampleProps = {};
 type ExampleRef = {};

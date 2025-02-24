@@ -1,7 +1,7 @@
-import * as React from "react";
-import MaterialIcons from "@expo/vector-icons/MaterialIcons";
-import { IconProps } from "@expo/vector-icons/build/createIconSet";
-import { useThemeColor } from "@/hooks/useThemeColor";
+import * as React from 'react';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import { IconProps } from '@expo/vector-icons/build/createIconSet';
+import { useThemeColor } from '@/hooks/useThemeColor';
 
 interface ButtonIconProps extends React.ComponentProps<typeof MaterialIcons> {
   color?: string;

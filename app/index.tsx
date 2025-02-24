@@ -1,5 +1,5 @@
-import { Link, router, Stack } from "expo-router";
-import { Button, Text, View } from "react-native";
+import { Link, router, Stack } from 'expo-router';
+import { Button, Text, View } from 'react-native';
 
 export default function Index() {
   return (
@@ -8,11 +8,11 @@ export default function Index() {
       <View
         style={{
           flex: 1,
-          justifyContent: "center",
-          alignItems: "center",
+          justifyContent: 'center',
+          alignItems: 'center',
         }}
       >
-        <Button title="Go to Tabs" onPress={() => router.replace("/tabs")} />
+        <Button title="Go to Tabs" onPress={() => router.replace('/tabs')} />
         {/* <Link onPress={() => router.replace("/tabs")} href="/tabs">
           Go to Tabs
         </Link> */}

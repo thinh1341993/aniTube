@@ -1,9 +1,9 @@
-import { ButtonIcon, Collapsible, IconSymbol } from "@/components";
-import { Button } from "@/components/Button";
-import { $styles } from "@/constants/Styles";
-import i18n, { tx } from "@/i18n/i18n";
-import { forwardRef, useImperativeHandle } from "react";
-import { View, StyleSheet } from "react-native";
+import { ButtonIcon, Collapsible, IconSymbol } from '@/components';
+import { Button } from '@/components/Button';
+import { $styles } from '@/constants/Styles';
+import i18n, { tx } from '@/i18n/i18n';
+import { forwardRef, useImperativeHandle } from 'react';
+import { View, StyleSheet } from 'react-native';
 
 type HeaderHomeProps = {};
 export type HeaderHomeRef = {};
@@ -14,11 +14,11 @@ export const HeaderHome = forwardRef(
     useImperativeHandle(ref, () => ({}));
 
     return (
-      <View style={[$styles.row, styles.container]}>
-        <Button>{tx("login")}</Button>
-        <View style={[$styles.row]}>
+      <View style={[$styles.row, $styles.container, styles.container]}>
+        <Button>{tx('login')}</Button>
+        <View style={$styles.row}>
           <ButtonIcon name="search" size={28} />
-          <ButtonIcon name="notifications" size={28} />
+          <ButtonIcon name="notifications" size={28} style={styles.icon} />
         </View>
       </View>
     );
@@ -26,7 +26,10 @@ export const HeaderHome = forwardRef(
 );
 
 const styles = StyleSheet.create({
+  icon: {
+    paddingLeft: 8,
+  },
   container: {
-    justifyContent: "space-between",
+    justifyContent: 'space-between',
   },
 });

@@ -1,5 +1,5 @@
 export const en = {
-  welcome: "Welcome",
-  greeting: "Hello, {{name}}!",
-  login: "Login",
+  welcome: 'Welcome',
+  greeting: 'Hello, {{name}}!',
+  login: 'Login',
 };

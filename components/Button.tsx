@@ -1,11 +1,11 @@
-import { hexToRgba } from "@/constants/Colors";
-import { $styles } from "@/constants/Styles";
+import { hexToRgba } from '@/constants/Colors';
+import { $styles } from '@/constants/Styles';
 import {
   ThemedStyle,
   ThemedStyleArray,
   useThemeColor,
-} from "@/hooks/useThemeColor";
-import { ComponentType } from "react";
+} from '@/hooks/useThemeColor';
+import { ComponentType } from 'react';
 import {
   Pressable,
   PressableProps,
@@ -14,9 +14,9 @@ import {
   TextStyle,
   ViewStyle,
   Text,
-} from "react-native";
+} from 'react-native';
 
-type Presets = "default" | "filled" | "reversed";
+type Presets = 'default' | 'filled' | 'reversed';
 
 export interface ButtonAccessoryProps {
   style: StyleProp<any>;
@@ -107,7 +107,7 @@ export function Button(props: ButtonProps) {
 
   const { themed } = useThemeColor();
 
-  const preset: Presets = props.preset ?? "filled";
+  const preset: Presets = props.preset ?? 'filled';
   /**
    * @param {PressableStateCallbackType} root0 - The root object containing the pressed state.
    * @param {boolean} root0.pressed - The pressed state.
@@ -176,18 +176,18 @@ export function Button(props: ButtonProps) {
 
 const $baseViewStyle: ThemedStyle<ViewStyle> = ({ spacing }) => ({
   borderRadius: 99,
-  justifyContent: "center",
+  justifyContent: 'center',
   paddingVertical: spacing.sm,
   paddingHorizontal: spacing.sm,
-  overflow: "hidden",
+  overflow: 'hidden',
 });
 
 const $baseTextStyle: ThemedStyle<TextStyle> = ({ colors }) => ({
   color: colors.text,
   fontSize: 16,
   // fontFamily: typography.primary.medium,
-  textAlign: "center",
-  fontWeight: "600",
+  textAlign: 'center',
+  fontWeight: '600',
   flexShrink: 1,
   flexGrow: 0,
   zIndex: 2,

@@ -1,13 +1,13 @@
-import { Image, StyleSheet, Platform, ScrollView } from "react-native";
+import { Image, StyleSheet, Platform, ScrollView } from 'react-native';
 
-import { HelloWave } from "@/components/HelloWave";
-import ParallaxScrollView from "@/components/ParallaxScrollView";
-import { ThemedText } from "@/components/ThemedText";
-import { ThemedView } from "@/components/ThemedView";
-import { CarouselMovie } from "@/components/screen/home/CarouselMovie";
-import { Colors } from "@/constants/Colors";
-import { ScreenView } from "@/components";
-import { HeaderHome } from "@/components/screen/home";
+import { HelloWave } from '@/components/HelloWave';
+import ParallaxScrollView from '@/components/ParallaxScrollView';
+import { ThemedText } from '@/components/ThemedText';
+import { ThemedView } from '@/components/ThemedView';
+import { CarouselMovie } from '@/components/screen/home/CarouselMovie';
+import { Colors } from '@/constants/Colors';
+import { ScreenView } from '@/components';
+import { HeaderHome } from '@/components/screen/home';
 
 export default function HomeScreen() {
   return (
@@ -20,8 +20,8 @@ export default function HomeScreen() {
 
 const styles = StyleSheet.create({
   titleContainer: {
-    flexDirection: "row",
-    alignItems: "center",
+    flexDirection: 'row',
+    alignItems: 'center',
     gap: 8,
   },
   stepContainer: {
@@ -33,6 +33,6 @@ const styles = StyleSheet.create({
     width: 290,
     bottom: 0,
     left: 0,
-    position: "absolute",
+    position: 'absolute',
   },
 });
