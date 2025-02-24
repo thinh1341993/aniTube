@@ -6,6 +6,7 @@
 import { Colors, palette } from "@/constants/Colors";
 import { spacing } from "@/constants/Spacing";
 import { useColorScheme } from "@/hooks/useColorScheme";
+import React from "react";
 import { useCallback, useState } from "react";
 import { ColorSchemeName, StyleProp } from "react-native";
 
@@ -105,3 +106,15 @@ export type ThemedStyleArray<T> = (
   | StyleProp<T>
   | (StyleProp<T> | ThemedStyle<T>)[]
 )[];
+
+type Generator<T extends {}> = (theme: UseAppThemeValue) => T;
+
+export const useThemeToStyles = <T extends {}>(createStyle: Generator<T>) => {
+  const theme = useThemeColor();
+
+  const ThemeAwareObject = React.useMemo(
+    () => createStyle(theme),
+    [createStyle, theme]
+  );
+  return ThemeAwareObject;
+};
