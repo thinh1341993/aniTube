@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo } from "react"
 import {
   ImageSourcePropType,
   type ImageStyle,
@@ -7,27 +7,21 @@ import {
   // Text,
   // View,
   type ViewProps,
-} from 'react-native';
-import type { AnimatedProps } from 'react-native-reanimated';
-import Animated from 'react-native-reanimated';
+} from "react-native"
+import type { AnimatedProps } from "react-native-reanimated"
+import Animated from "react-native-reanimated"
 
 interface Props extends AnimatedProps<ViewProps> {
-  imageStyle?: StyleProp<ImageStyle>;
-  index?: number;
-  rounded?: boolean;
-  source?: ImageSourcePropType;
+  imageStyle?: StyleProp<ImageStyle>
+  index?: number
+  rounded?: boolean
+  source?: ImageSourcePropType
 }
 
 export const SlideItem: React.FC<Props> = (props) => {
-  const {
-    imageStyle,
-    index = 0,
-    rounded = false,
-    testID,
-    ...animatedViewProps
-  } = props;
+  const { imageStyle, index = 0, rounded = false, testID, ...animatedViewProps } = props
 
-  const source = useMemo(() => props.source, [index, props.source]);
+  const source = useMemo(() => props.source, [index, props.source])
 
   return (
     <Animated.View testID={testID} style={{ flex: 1 }} {...animatedViewProps}>
@@ -42,13 +36,13 @@ export const SlideItem: React.FC<Props> = (props) => {
         </View>
       </View> */}
     </Animated.View>
-  );
-};
+  )
+}
 
 const styles = StyleSheet.create({
   container: {
-    width: '100%',
-    height: '100%',
+    width: "100%",
+    height: "100%",
   },
   // overlay: {
   //   position: "absolute",
@@ -73,4 +67,4 @@ const styles = StyleSheet.create({
   //   justifyContent: "center",
   //   alignItems: "center",
   // },
-});
+})

@@ -1,2 +1,2 @@
-export * from './CarouselMovie';
-export * from './HeaderHome';
+export * from "./CarouselMovie"
+export * from "./HeaderHome"

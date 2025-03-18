@@ -9,7 +9,6 @@ import { Colors } from "@/constants/Colors"
 import { ScreenView } from "@/components"
 import { HeaderHome } from "@/components/screen/home"
 import { MovieList } from "@/components/screen/home/MovieList"
-import { ChatHomeScreen } from "./chatHome"
 
 export default function HomeScreen() {
   const data = [
@@ -36,7 +35,6 @@ export default function HomeScreen() {
   ] as any
   return (
     <ScreenView preset="scroll">
-      <ChatHomeScreen />
       {/* <HeaderHome /> */}
       {/* <CarouselMovie /> */}
       {/* <MovieList movies={data} title="BTV" onViewMore={() => {}} /> */}
