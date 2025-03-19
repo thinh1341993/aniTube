@@ -31,11 +31,9 @@ export default function Index() {
         }}
       >
         {/* <Button title="Go to Tabs" onPress={() => router.replace("/tabs")} /> */}
-        <Button theme="blue">Hello world</Button>
-
-        {/* <Link onPress={() => router.replace("/tabs")} href="/tabs">
-          Go to Tabs
-        </Link> */}
+        <Button onPress={() => router.replace("/(tabs)/home")} theme="blue">
+          Hello world
+        </Button>
       </View>
     </>
   )
