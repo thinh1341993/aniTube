@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AniTube",
-    "slug": "anitube",
+    "slug": "connectify",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -49,9 +49,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "f1b6578b-b098-453c-9932-fb2db823bf39"
+        "projectId": "a3d8f745-915d-4dc4-b85f-979cbbeef1ee"
       }
     },
-    "owner": "error-404-team-not-found"
+    "owner": "ducthinh1341993"
   }
 }
