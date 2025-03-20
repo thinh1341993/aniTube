@@ -1,5 +1,5 @@
-import { useKeyboardHandler } from 'react-native-keyboard-controller';
-import { useSharedValue } from 'react-native-reanimated';
+import { useKeyboardHandler } from "react-native-keyboard-controller";
+import { useSharedValue } from "react-native-reanimated";
 
 export const useGradualAnimation = () => {
   const height = useSharedValue(0);
@@ -7,11 +7,11 @@ export const useGradualAnimation = () => {
   useKeyboardHandler(
     {
       onMove: (event) => {
-        'worklet';
+        "worklet";
         height.value = Math.max(event.height, 0);
       },
     },
-    []
+    [],
   );
   return { height };
 };

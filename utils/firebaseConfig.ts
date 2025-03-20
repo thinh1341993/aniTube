@@ -1,7 +1,7 @@
 // firebaseConfig.js
-import { initializeApp } from "firebase/app"
-import { getAuth } from "firebase/auth"
-import { getFirestore } from "firebase/firestore"
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 // Optionally import the services that you want to use
 // import {...} from 'firebase/auth';
 // import {...} from 'firebase/database';
@@ -17,8 +17,8 @@ const firebaseConfig = {
   messagingSenderId: "354751853778",
   appId: "1:354751853778:web:376b5e1e4bfdd79dbc690b",
   //   measurementId: 'G-measurement-id',
-}
+};
 
-const app = initializeApp(firebaseConfig)
-export const auth = getAuth(app)
-export const db = getFirestore(app)
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
+export const db = getFirestore(app);
