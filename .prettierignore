@@ -1,9 +1,0 @@
-node_modules/
-dist/
-build/
-node_modules
-ios
-android
-.vscode
-ignite/ignite.json
-package.json

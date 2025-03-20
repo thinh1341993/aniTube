@@ -1,45 +1,34 @@
 {
   "expo": {
-    "name": "AniTube",
-    "slug": "connectify",
+    "name": "Connectify",
+    "slug": "Connectify",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#000000"
-    },
-    "scheme": "aniTube",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#000000"
-      },
-      "package": "com.aniTube.app"
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/icon.png"
+      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#000000"
-        }
-      ],
-      "expo-localization"
+      "expo-router"
     ],
     "experiments": {
       "typedRoutes": true
@@ -49,9 +38,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "a3d8f745-915d-4dc4-b85f-979cbbeef1ee"
+        "projectId": "e072820b-d978-469f-ba77-7e004d46fa15"
       }
     },
-    "owner": "ducthinh1341993"
+    "owner": "error-404-team-not-found"
   }
 }

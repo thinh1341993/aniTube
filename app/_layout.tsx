@@ -1,36 +1,63 @@
-// import { DarkTheme, DefaultTheme, ThemeProvider } from "@react-navigation/native"
-import { Slot } from "expo-router"
-import { StatusBar } from "expo-status-bar"
-import { ReactNode } from "react"
-import { KeyboardProvider } from "react-native-keyboard-controller"
-// import { useThemeColor } from "@/hooks/useThemeColor"
-import { TamaguiProvider } from "tamagui"
-import tamaguiConfig from "../tamagui.config"
-import { Platform } from "react-native"
-import { preventAutoHideAsync } from "expo-splash-screen"
+import FontAwesome from "@expo/vector-icons/FontAwesome";
+import {
+  DarkTheme,
+  DefaultTheme,
+  ThemeProvider,
+} from "@react-navigation/native";
+import { useFonts } from "expo-font";
+import { Stack } from "expo-router";
+import * as SplashScreen from "expo-splash-screen";
+import { useEffect } from "react";
+import "react-native-reanimated";
 
-import "react-native-reanimated"
+import { useColorScheme } from "@/components/useColorScheme";
+
+export {
+  // Catch any errors thrown by the Layout component.
+  ErrorBoundary,
+} from "expo-router";
+
+export const unstable_settings = {
+  // Ensure that reloading on `/modal` keeps a back button present.
+  initialRouteName: "(tabs)",
+};
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
-preventAutoHideAsync()
-
-const BlankView = ({ children }: { children: ReactNode }) => <>{children}</>
+SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
-  // const colorScheme = useThemeColor().themeName
-  const KeyboardProviderWap = Platform.OS !== "web" ? KeyboardProvider : BlankView
+  const [loaded, error] = useFonts({
+    SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
+    ...FontAwesome.font,
+  });
+
+  // Expo Router uses Error Boundaries to catch errors in the navigation tree.
+  useEffect(() => {
+    if (error) throw error;
+  }, [error]);
+
+  useEffect(() => {
+    if (loaded) {
+      SplashScreen.hideAsync();
+    }
+  }, [loaded]);
+
+  if (!loaded) {
+    return null;
+  }
+
+  return <RootLayoutNav />;
+}
+
+function RootLayoutNav() {
+  const colorScheme = useColorScheme();
+
   return (
-    <TamaguiProvider config={tamaguiConfig}>
-      {/* <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}> */}
-      <KeyboardProviderWap>
-        <Slot />
-        {/* <Stack>
-            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-            <Stack.Screen name="+not-found" />
-          </Stack> */}
-        <StatusBar style="auto" />
-      </KeyboardProviderWap>
-      {/* </ThemeProvider> */}
-    </TamaguiProvider>
-  )
+    <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
+      <Stack>
+        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen name="modal" options={{ presentation: "modal" }} />
+      </Stack>
+    </ThemeProvider>
+  );
 }
