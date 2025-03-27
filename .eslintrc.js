@@ -5,5 +5,6 @@ module.exports = {
     "prettier/prettier": "warn",
     "import/no-unresolved": "off",
     "import/namespace": "off",
+    trailingComma: "none",
   },
 };

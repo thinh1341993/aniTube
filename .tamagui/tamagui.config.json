@@ -27755,26 +27755,23 @@
       "useAnimations": "Function"
     },
     "media": {
-      "2xl": {
-        "minWidth": 1536
-      },
-      "xl": {
-        "minWidth": 1280
-      },
-      "lg": {
-        "minWidth": 1024
-      },
-      "md": {
-        "minWidth": 768
+      "xs": {
+        "maxWidth": 640
       },
       "sm": {
-        "minWidth": 640
+        "maxWidth": 768
       },
-      "xs": {
-        "minWidth": 460
+      "md": {
+        "maxWidth": 1024
       },
-      "2xs": {
-        "minWidth": 340
+      "lg": {
+        "maxWidth": 1280
+      },
+      "xl": {
+        "maxWidth": 1536
+      },
+      "xxl": {
+        "minWidth": 1537
       }
     },
     "shorthands": {
@@ -27976,6 +27973,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light"
       },
       "dark": {
@@ -28109,6 +28108,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark"
       },
       "light_accent": {
@@ -28242,6 +28243,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent"
       },
       "dark_accent": {
@@ -28375,6 +28378,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent"
       },
       "light_black": {
@@ -28508,6 +28513,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black"
       },
       "light_white": {
@@ -28641,6 +28648,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white"
       },
       "light_blue": {
@@ -28774,6 +28783,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue"
       },
       "light_red": {
@@ -28907,6 +28918,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red"
       },
       "light_yellow": {
@@ -29040,6 +29053,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow"
       },
       "light_green": {
@@ -29173,6 +29188,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green"
       },
       "dark_black": {
@@ -29306,6 +29323,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black"
       },
       "dark_white": {
@@ -29439,6 +29458,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white"
       },
       "dark_blue": {
@@ -29572,6 +29593,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue"
       },
       "dark_red": {
@@ -29705,6 +29728,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red"
       },
       "dark_yellow": {
@@ -29838,6 +29863,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow"
       },
       "dark_green": {
@@ -29971,6 +29998,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green"
       },
       "light_ListItem": {
@@ -30104,6 +30133,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_ListItem"
       },
       "light_SelectTrigger": {
@@ -30237,6 +30268,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_SelectTrigger"
       },
       "light_Card": {
@@ -30370,6 +30403,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_Card"
       },
       "light_Progress": {
@@ -30503,6 +30538,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_Progress"
       },
       "light_TooltipArrow": {
@@ -30636,6 +30673,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_TooltipArrow"
       },
       "light_SliderTrack": {
@@ -30769,6 +30808,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_SliderTrack"
       },
       "light_Input": {
@@ -30902,6 +30943,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_Input"
       },
       "light_TextArea": {
@@ -31035,6 +31078,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_TextArea"
       },
       "light_white_ListItem": {
@@ -31168,6 +31213,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_ListItem"
       },
       "light_white_SelectTrigger": {
@@ -31301,6 +31348,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_SelectTrigger"
       },
       "light_white_Card": {
@@ -31434,6 +31483,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_Card"
       },
       "light_white_Progress": {
@@ -31567,6 +31618,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_Progress"
       },
       "light_white_TooltipArrow": {
@@ -31700,6 +31753,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_TooltipArrow"
       },
       "light_white_SliderTrack": {
@@ -31833,6 +31888,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_SliderTrack"
       },
       "light_white_Input": {
@@ -31966,6 +32023,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_Input"
       },
       "light_white_TextArea": {
@@ -32099,6 +32158,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_TextArea"
       },
       "light_Button": {
@@ -32232,6 +32293,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_Button"
       },
       "light_SliderTrackActive": {
@@ -32365,6 +32428,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_SliderTrackActive"
       },
       "light_white_Button": {
@@ -32498,6 +32563,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_Button"
       },
       "light_white_SliderTrackActive": {
@@ -32631,6 +32698,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_SliderTrackActive"
       },
       "light_Checkbox": {
@@ -32764,6 +32833,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_Checkbox"
       },
       "light_Switch": {
@@ -32897,6 +32968,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_Switch"
       },
       "light_TooltipContent": {
@@ -33030,6 +33103,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_TooltipContent"
       },
       "light_RadioGroupItem": {
@@ -33163,6 +33238,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_RadioGroupItem"
       },
       "light_white_Checkbox": {
@@ -33296,6 +33373,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_Checkbox"
       },
       "light_white_Switch": {
@@ -33429,6 +33508,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_Switch"
       },
       "light_white_TooltipContent": {
@@ -33562,6 +33643,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_TooltipContent"
       },
       "light_white_RadioGroupItem": {
@@ -33695,6 +33778,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_RadioGroupItem"
       },
       "light_SwitchThumb": {
@@ -33828,6 +33913,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_SwitchThumb"
       },
       "light_SliderThumb": {
@@ -33961,6 +34048,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_SliderThumb"
       },
       "light_Tooltip": {
@@ -34094,6 +34183,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_Tooltip"
       },
       "light_ProgressIndicator": {
@@ -34227,6 +34318,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_ProgressIndicator"
       },
       "light_white_SwitchThumb": {
@@ -34360,6 +34453,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_SwitchThumb"
       },
       "light_white_SliderThumb": {
@@ -34493,6 +34588,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_SliderThumb"
       },
       "light_white_Tooltip": {
@@ -34626,6 +34723,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_Tooltip"
       },
       "light_white_ProgressIndicator": {
@@ -34759,6 +34858,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_white_ProgressIndicator"
       },
       "dark_ListItem": {
@@ -34892,6 +34993,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_ListItem"
       },
       "dark_SelectTrigger": {
@@ -35025,6 +35128,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_SelectTrigger"
       },
       "dark_Card": {
@@ -35158,6 +35263,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_Card"
       },
       "dark_Progress": {
@@ -35291,6 +35398,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_Progress"
       },
       "dark_TooltipArrow": {
@@ -35424,6 +35533,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_TooltipArrow"
       },
       "dark_SliderTrack": {
@@ -35557,6 +35668,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_SliderTrack"
       },
       "dark_Input": {
@@ -35690,6 +35803,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_Input"
       },
       "dark_TextArea": {
@@ -35823,6 +35938,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_TextArea"
       },
       "dark_black_ListItem": {
@@ -35956,6 +36073,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_ListItem"
       },
       "dark_black_SelectTrigger": {
@@ -36089,6 +36208,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_SelectTrigger"
       },
       "dark_black_Card": {
@@ -36222,6 +36343,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_Card"
       },
       "dark_black_Progress": {
@@ -36355,6 +36478,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_Progress"
       },
       "dark_black_TooltipArrow": {
@@ -36488,6 +36613,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_TooltipArrow"
       },
       "dark_black_SliderTrack": {
@@ -36621,6 +36748,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_SliderTrack"
       },
       "dark_black_Input": {
@@ -36754,6 +36883,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_Input"
       },
       "dark_black_TextArea": {
@@ -36887,6 +37018,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_TextArea"
       },
       "dark_Button": {
@@ -37020,6 +37153,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_Button"
       },
       "dark_SliderTrackActive": {
@@ -37153,6 +37288,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_SliderTrackActive"
       },
       "dark_black_Button": {
@@ -37286,6 +37423,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_Button"
       },
       "dark_black_SliderTrackActive": {
@@ -37419,6 +37558,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_SliderTrackActive"
       },
       "dark_Checkbox": {
@@ -37552,6 +37693,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_Checkbox"
       },
       "dark_Switch": {
@@ -37685,6 +37828,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_Switch"
       },
       "dark_TooltipContent": {
@@ -37818,6 +37963,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_TooltipContent"
       },
       "dark_RadioGroupItem": {
@@ -37951,6 +38098,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_RadioGroupItem"
       },
       "dark_black_Checkbox": {
@@ -38084,6 +38233,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_Checkbox"
       },
       "dark_black_Switch": {
@@ -38217,6 +38368,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_Switch"
       },
       "dark_black_TooltipContent": {
@@ -38350,6 +38503,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_TooltipContent"
       },
       "dark_black_RadioGroupItem": {
@@ -38483,6 +38638,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_RadioGroupItem"
       },
       "dark_SwitchThumb": {
@@ -38616,6 +38773,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_SwitchThumb"
       },
       "dark_SliderThumb": {
@@ -38749,6 +38908,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_SliderThumb"
       },
       "dark_Tooltip": {
@@ -38882,6 +39043,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_Tooltip"
       },
       "dark_ProgressIndicator": {
@@ -39015,6 +39178,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_ProgressIndicator"
       },
       "dark_black_SwitchThumb": {
@@ -39148,6 +39313,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_SwitchThumb"
       },
       "dark_black_SliderThumb": {
@@ -39281,6 +39448,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_SliderThumb"
       },
       "dark_black_Tooltip": {
@@ -39414,6 +39583,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_Tooltip"
       },
       "dark_black_ProgressIndicator": {
@@ -39547,6 +39718,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_black_ProgressIndicator"
       },
       "light_accent_ListItem": {
@@ -39680,6 +39853,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_ListItem"
       },
       "light_accent_SelectTrigger": {
@@ -39813,6 +39988,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_SelectTrigger"
       },
       "light_accent_Card": {
@@ -39946,6 +40123,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_Card"
       },
       "light_accent_Progress": {
@@ -40079,6 +40258,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_Progress"
       },
       "light_accent_TooltipArrow": {
@@ -40212,6 +40393,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_TooltipArrow"
       },
       "light_accent_SliderTrack": {
@@ -40345,6 +40528,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_SliderTrack"
       },
       "light_accent_Input": {
@@ -40478,6 +40663,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_Input"
       },
       "light_accent_TextArea": {
@@ -40611,6 +40798,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_TextArea"
       },
       "light_black_ListItem": {
@@ -40744,6 +40933,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_ListItem"
       },
       "light_black_SelectTrigger": {
@@ -40877,6 +41068,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_SelectTrigger"
       },
       "light_black_Card": {
@@ -41010,6 +41203,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_Card"
       },
       "light_black_Progress": {
@@ -41143,6 +41338,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_Progress"
       },
       "light_black_TooltipArrow": {
@@ -41276,6 +41473,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_TooltipArrow"
       },
       "light_black_SliderTrack": {
@@ -41409,6 +41608,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_SliderTrack"
       },
       "light_black_Input": {
@@ -41542,6 +41743,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_Input"
       },
       "light_black_TextArea": {
@@ -41675,6 +41878,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_TextArea"
       },
       "light_accent_Button": {
@@ -41808,6 +42013,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_Button"
       },
       "light_accent_SliderTrackActive": {
@@ -41941,6 +42148,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_SliderTrackActive"
       },
       "light_black_Button": {
@@ -42074,6 +42283,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_Button"
       },
       "light_black_SliderTrackActive": {
@@ -42207,6 +42418,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_SliderTrackActive"
       },
       "light_accent_Checkbox": {
@@ -42340,6 +42553,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_Checkbox"
       },
       "light_accent_Switch": {
@@ -42473,6 +42688,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_Switch"
       },
       "light_accent_TooltipContent": {
@@ -42606,6 +42823,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_TooltipContent"
       },
       "light_accent_RadioGroupItem": {
@@ -42739,6 +42958,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_RadioGroupItem"
       },
       "light_black_Checkbox": {
@@ -42872,6 +43093,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_Checkbox"
       },
       "light_black_Switch": {
@@ -43005,6 +43228,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_Switch"
       },
       "light_black_TooltipContent": {
@@ -43138,6 +43363,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_TooltipContent"
       },
       "light_black_RadioGroupItem": {
@@ -43271,6 +43498,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_RadioGroupItem"
       },
       "light_accent_SwitchThumb": {
@@ -43404,6 +43633,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_SwitchThumb"
       },
       "light_accent_SliderThumb": {
@@ -43537,6 +43768,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_SliderThumb"
       },
       "light_accent_Tooltip": {
@@ -43670,6 +43903,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_Tooltip"
       },
       "light_accent_ProgressIndicator": {
@@ -43803,6 +44038,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_accent_ProgressIndicator"
       },
       "dark_accent_ListItem": {
@@ -43936,6 +44173,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_ListItem"
       },
       "dark_accent_SelectTrigger": {
@@ -44069,6 +44308,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_SelectTrigger"
       },
       "dark_accent_Card": {
@@ -44202,6 +44443,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_Card"
       },
       "dark_accent_Progress": {
@@ -44335,6 +44578,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_Progress"
       },
       "dark_accent_TooltipArrow": {
@@ -44468,6 +44713,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_TooltipArrow"
       },
       "dark_accent_SliderTrack": {
@@ -44601,6 +44848,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_SliderTrack"
       },
       "dark_accent_Input": {
@@ -44734,6 +44983,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_Input"
       },
       "dark_accent_TextArea": {
@@ -44867,6 +45118,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_TextArea"
       },
       "dark_white_ListItem": {
@@ -45000,6 +45253,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_ListItem"
       },
       "dark_white_SelectTrigger": {
@@ -45133,6 +45388,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_SelectTrigger"
       },
       "dark_white_Card": {
@@ -45266,6 +45523,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_Card"
       },
       "dark_white_Progress": {
@@ -45399,6 +45658,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_Progress"
       },
       "dark_white_TooltipArrow": {
@@ -45532,6 +45793,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_TooltipArrow"
       },
       "dark_white_SliderTrack": {
@@ -45665,6 +45928,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_SliderTrack"
       },
       "dark_white_Input": {
@@ -45798,6 +46063,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_Input"
       },
       "dark_white_TextArea": {
@@ -45931,6 +46198,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_TextArea"
       },
       "dark_accent_Button": {
@@ -46064,6 +46333,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_Button"
       },
       "dark_accent_SliderTrackActive": {
@@ -46197,6 +46468,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_SliderTrackActive"
       },
       "dark_white_Button": {
@@ -46330,6 +46603,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_Button"
       },
       "dark_white_SliderTrackActive": {
@@ -46463,6 +46738,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_SliderTrackActive"
       },
       "dark_accent_Checkbox": {
@@ -46596,6 +46873,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_Checkbox"
       },
       "dark_accent_Switch": {
@@ -46729,6 +47008,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_Switch"
       },
       "dark_accent_TooltipContent": {
@@ -46862,6 +47143,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_TooltipContent"
       },
       "dark_accent_RadioGroupItem": {
@@ -46995,6 +47278,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_RadioGroupItem"
       },
       "dark_white_Checkbox": {
@@ -47128,6 +47413,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_Checkbox"
       },
       "dark_white_Switch": {
@@ -47261,6 +47548,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_Switch"
       },
       "dark_white_TooltipContent": {
@@ -47394,6 +47683,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_TooltipContent"
       },
       "dark_white_RadioGroupItem": {
@@ -47527,6 +47818,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_RadioGroupItem"
       },
       "dark_accent_SwitchThumb": {
@@ -47660,6 +47953,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_SwitchThumb"
       },
       "dark_accent_SliderThumb": {
@@ -47793,6 +48088,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_SliderThumb"
       },
       "dark_accent_Tooltip": {
@@ -47926,6 +48223,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_Tooltip"
       },
       "dark_accent_ProgressIndicator": {
@@ -48059,6 +48358,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_accent_ProgressIndicator"
       },
       "light_black_SwitchThumb": {
@@ -48192,6 +48493,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_SwitchThumb"
       },
       "light_black_SliderThumb": {
@@ -48325,6 +48628,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_SliderThumb"
       },
       "light_black_Tooltip": {
@@ -48458,6 +48763,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_Tooltip"
       },
       "light_black_ProgressIndicator": {
@@ -48591,6 +48898,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_black_ProgressIndicator"
       },
       "light_blue_ListItem": {
@@ -48724,6 +49033,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_ListItem"
       },
       "light_blue_SelectTrigger": {
@@ -48857,6 +49168,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_SelectTrigger"
       },
       "light_blue_Card": {
@@ -48990,6 +49303,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_Card"
       },
       "light_blue_Progress": {
@@ -49123,6 +49438,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_Progress"
       },
       "light_blue_TooltipArrow": {
@@ -49256,6 +49573,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_TooltipArrow"
       },
       "light_blue_SliderTrack": {
@@ -49389,6 +49708,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_SliderTrack"
       },
       "light_blue_Input": {
@@ -49522,6 +49843,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_Input"
       },
       "light_blue_TextArea": {
@@ -49655,6 +49978,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_TextArea"
       },
       "light_blue_Button": {
@@ -49788,6 +50113,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_Button"
       },
       "light_blue_SliderTrackActive": {
@@ -49921,6 +50248,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_SliderTrackActive"
       },
       "light_blue_Checkbox": {
@@ -50054,6 +50383,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_Checkbox"
       },
       "light_blue_Switch": {
@@ -50187,6 +50518,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_Switch"
       },
       "light_blue_TooltipContent": {
@@ -50320,6 +50653,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_TooltipContent"
       },
       "light_blue_RadioGroupItem": {
@@ -50453,6 +50788,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_RadioGroupItem"
       },
       "light_blue_SwitchThumb": {
@@ -50586,6 +50923,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_SwitchThumb"
       },
       "light_blue_SliderThumb": {
@@ -50719,6 +51058,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_SliderThumb"
       },
       "light_blue_Tooltip": {
@@ -50852,6 +51193,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_Tooltip"
       },
       "light_blue_ProgressIndicator": {
@@ -50985,6 +51328,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_blue_ProgressIndicator"
       },
       "light_red_ListItem": {
@@ -51118,6 +51463,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_ListItem"
       },
       "light_red_SelectTrigger": {
@@ -51251,6 +51598,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_SelectTrigger"
       },
       "light_red_Card": {
@@ -51384,6 +51733,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_Card"
       },
       "light_red_Progress": {
@@ -51517,6 +51868,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_Progress"
       },
       "light_red_TooltipArrow": {
@@ -51650,6 +52003,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_TooltipArrow"
       },
       "light_red_SliderTrack": {
@@ -51783,6 +52138,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_SliderTrack"
       },
       "light_red_Input": {
@@ -51916,6 +52273,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_Input"
       },
       "light_red_TextArea": {
@@ -52049,6 +52408,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_TextArea"
       },
       "light_red_Button": {
@@ -52182,6 +52543,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_Button"
       },
       "light_red_SliderTrackActive": {
@@ -52315,6 +52678,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_SliderTrackActive"
       },
       "light_red_Checkbox": {
@@ -52448,6 +52813,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_Checkbox"
       },
       "light_red_Switch": {
@@ -52581,6 +52948,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_Switch"
       },
       "light_red_TooltipContent": {
@@ -52714,6 +53083,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_TooltipContent"
       },
       "light_red_RadioGroupItem": {
@@ -52847,6 +53218,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_RadioGroupItem"
       },
       "light_red_SwitchThumb": {
@@ -52980,6 +53353,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_SwitchThumb"
       },
       "light_red_SliderThumb": {
@@ -53113,6 +53488,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_SliderThumb"
       },
       "light_red_Tooltip": {
@@ -53246,6 +53623,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_Tooltip"
       },
       "light_red_ProgressIndicator": {
@@ -53379,6 +53758,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_red_ProgressIndicator"
       },
       "light_yellow_ListItem": {
@@ -53512,6 +53893,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_ListItem"
       },
       "light_yellow_SelectTrigger": {
@@ -53645,6 +54028,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_SelectTrigger"
       },
       "light_yellow_Card": {
@@ -53778,6 +54163,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_Card"
       },
       "light_yellow_Progress": {
@@ -53911,6 +54298,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_Progress"
       },
       "light_yellow_TooltipArrow": {
@@ -54044,6 +54433,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_TooltipArrow"
       },
       "light_yellow_SliderTrack": {
@@ -54177,6 +54568,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_SliderTrack"
       },
       "light_yellow_Input": {
@@ -54310,6 +54703,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_Input"
       },
       "light_yellow_TextArea": {
@@ -54443,6 +54838,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_TextArea"
       },
       "light_yellow_Button": {
@@ -54576,6 +54973,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_Button"
       },
       "light_yellow_SliderTrackActive": {
@@ -54709,6 +55108,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_SliderTrackActive"
       },
       "light_yellow_Checkbox": {
@@ -54842,6 +55243,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_Checkbox"
       },
       "light_yellow_Switch": {
@@ -54975,6 +55378,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_Switch"
       },
       "light_yellow_TooltipContent": {
@@ -55108,6 +55513,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_TooltipContent"
       },
       "light_yellow_RadioGroupItem": {
@@ -55241,6 +55648,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_RadioGroupItem"
       },
       "light_yellow_SwitchThumb": {
@@ -55374,6 +55783,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_SwitchThumb"
       },
       "light_yellow_SliderThumb": {
@@ -55507,6 +55918,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_SliderThumb"
       },
       "light_yellow_Tooltip": {
@@ -55640,6 +56053,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_Tooltip"
       },
       "light_yellow_ProgressIndicator": {
@@ -55773,6 +56188,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_yellow_ProgressIndicator"
       },
       "light_green_ListItem": {
@@ -55906,6 +56323,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_ListItem"
       },
       "light_green_SelectTrigger": {
@@ -56039,6 +56458,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_SelectTrigger"
       },
       "light_green_Card": {
@@ -56172,6 +56593,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_Card"
       },
       "light_green_Progress": {
@@ -56305,6 +56728,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_Progress"
       },
       "light_green_TooltipArrow": {
@@ -56438,6 +56863,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_TooltipArrow"
       },
       "light_green_SliderTrack": {
@@ -56571,6 +56998,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_SliderTrack"
       },
       "light_green_Input": {
@@ -56704,6 +57133,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_Input"
       },
       "light_green_TextArea": {
@@ -56837,6 +57268,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_TextArea"
       },
       "light_green_Button": {
@@ -56970,6 +57403,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_Button"
       },
       "light_green_SliderTrackActive": {
@@ -57103,6 +57538,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_SliderTrackActive"
       },
       "light_green_Checkbox": {
@@ -57236,6 +57673,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_Checkbox"
       },
       "light_green_Switch": {
@@ -57369,6 +57808,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_Switch"
       },
       "light_green_TooltipContent": {
@@ -57502,6 +57943,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_TooltipContent"
       },
       "light_green_RadioGroupItem": {
@@ -57635,6 +58078,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_RadioGroupItem"
       },
       "light_green_SwitchThumb": {
@@ -57768,6 +58213,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_SwitchThumb"
       },
       "light_green_SliderThumb": {
@@ -57901,6 +58348,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_SliderThumb"
       },
       "light_green_Tooltip": {
@@ -58034,6 +58483,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_Tooltip"
       },
       "light_green_ProgressIndicator": {
@@ -58167,6 +58618,8 @@
         "accent10": "hsla(0, 0%, 38%, 1)",
         "accent11": "hsla(0, 0%, 65%, 1)",
         "accent12": "hsla(0, 0%, 100%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "light_green_ProgressIndicator"
       },
       "dark_white_SwitchThumb": {
@@ -58300,6 +58753,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_SwitchThumb"
       },
       "dark_white_SliderThumb": {
@@ -58433,6 +58888,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_SliderThumb"
       },
       "dark_white_Tooltip": {
@@ -58566,6 +59023,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_Tooltip"
       },
       "dark_white_ProgressIndicator": {
@@ -58699,6 +59158,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_white_ProgressIndicator"
       },
       "dark_blue_ListItem": {
@@ -58832,6 +59293,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_ListItem"
       },
       "dark_blue_SelectTrigger": {
@@ -58965,6 +59428,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_SelectTrigger"
       },
       "dark_blue_Card": {
@@ -59098,6 +59563,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_Card"
       },
       "dark_blue_Progress": {
@@ -59231,6 +59698,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_Progress"
       },
       "dark_blue_TooltipArrow": {
@@ -59364,6 +59833,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_TooltipArrow"
       },
       "dark_blue_SliderTrack": {
@@ -59497,6 +59968,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_SliderTrack"
       },
       "dark_blue_Input": {
@@ -59630,6 +60103,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_Input"
       },
       "dark_blue_TextArea": {
@@ -59763,6 +60238,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_TextArea"
       },
       "dark_blue_Button": {
@@ -59896,6 +60373,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_Button"
       },
       "dark_blue_SliderTrackActive": {
@@ -60029,6 +60508,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_SliderTrackActive"
       },
       "dark_blue_Checkbox": {
@@ -60162,6 +60643,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_Checkbox"
       },
       "dark_blue_Switch": {
@@ -60295,6 +60778,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_Switch"
       },
       "dark_blue_TooltipContent": {
@@ -60428,6 +60913,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_TooltipContent"
       },
       "dark_blue_RadioGroupItem": {
@@ -60561,6 +61048,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_RadioGroupItem"
       },
       "dark_blue_SwitchThumb": {
@@ -60694,6 +61183,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_SwitchThumb"
       },
       "dark_blue_SliderThumb": {
@@ -60827,6 +61318,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_SliderThumb"
       },
       "dark_blue_Tooltip": {
@@ -60960,6 +61453,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_Tooltip"
       },
       "dark_blue_ProgressIndicator": {
@@ -61093,6 +61588,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_blue_ProgressIndicator"
       },
       "dark_red_ListItem": {
@@ -61226,6 +61723,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_ListItem"
       },
       "dark_red_SelectTrigger": {
@@ -61359,6 +61858,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_SelectTrigger"
       },
       "dark_red_Card": {
@@ -61492,6 +61993,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_Card"
       },
       "dark_red_Progress": {
@@ -61625,6 +62128,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_Progress"
       },
       "dark_red_TooltipArrow": {
@@ -61758,6 +62263,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_TooltipArrow"
       },
       "dark_red_SliderTrack": {
@@ -61891,6 +62398,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_SliderTrack"
       },
       "dark_red_Input": {
@@ -62024,6 +62533,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_Input"
       },
       "dark_red_TextArea": {
@@ -62157,6 +62668,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_TextArea"
       },
       "dark_red_Button": {
@@ -62290,6 +62803,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_Button"
       },
       "dark_red_SliderTrackActive": {
@@ -62423,6 +62938,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_SliderTrackActive"
       },
       "dark_red_Checkbox": {
@@ -62556,6 +63073,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_Checkbox"
       },
       "dark_red_Switch": {
@@ -62689,6 +63208,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_Switch"
       },
       "dark_red_TooltipContent": {
@@ -62822,6 +63343,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_TooltipContent"
       },
       "dark_red_RadioGroupItem": {
@@ -62955,6 +63478,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_RadioGroupItem"
       },
       "dark_red_SwitchThumb": {
@@ -63088,6 +63613,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_SwitchThumb"
       },
       "dark_red_SliderThumb": {
@@ -63221,6 +63748,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_SliderThumb"
       },
       "dark_red_Tooltip": {
@@ -63354,6 +63883,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_Tooltip"
       },
       "dark_red_ProgressIndicator": {
@@ -63487,6 +64018,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_red_ProgressIndicator"
       },
       "dark_yellow_ListItem": {
@@ -63620,6 +64153,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_ListItem"
       },
       "dark_yellow_SelectTrigger": {
@@ -63753,6 +64288,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_SelectTrigger"
       },
       "dark_yellow_Card": {
@@ -63886,6 +64423,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_Card"
       },
       "dark_yellow_Progress": {
@@ -64019,6 +64558,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_Progress"
       },
       "dark_yellow_TooltipArrow": {
@@ -64152,6 +64693,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_TooltipArrow"
       },
       "dark_yellow_SliderTrack": {
@@ -64285,6 +64828,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_SliderTrack"
       },
       "dark_yellow_Input": {
@@ -64418,6 +64963,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_Input"
       },
       "dark_yellow_TextArea": {
@@ -64551,6 +65098,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_TextArea"
       },
       "dark_yellow_Button": {
@@ -64684,6 +65233,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_Button"
       },
       "dark_yellow_SliderTrackActive": {
@@ -64817,6 +65368,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_SliderTrackActive"
       },
       "dark_yellow_Checkbox": {
@@ -64950,6 +65503,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_Checkbox"
       },
       "dark_yellow_Switch": {
@@ -65083,6 +65638,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_Switch"
       },
       "dark_yellow_TooltipContent": {
@@ -65216,6 +65773,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_TooltipContent"
       },
       "dark_yellow_RadioGroupItem": {
@@ -65349,6 +65908,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_RadioGroupItem"
       },
       "dark_yellow_SwitchThumb": {
@@ -65482,6 +66043,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_SwitchThumb"
       },
       "dark_yellow_SliderThumb": {
@@ -65615,6 +66178,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_SliderThumb"
       },
       "dark_yellow_Tooltip": {
@@ -65748,6 +66313,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_Tooltip"
       },
       "dark_yellow_ProgressIndicator": {
@@ -65881,6 +66448,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_yellow_ProgressIndicator"
       },
       "dark_green_ListItem": {
@@ -66014,6 +66583,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_ListItem"
       },
       "dark_green_SelectTrigger": {
@@ -66147,6 +66718,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_SelectTrigger"
       },
       "dark_green_Card": {
@@ -66280,6 +66853,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_Card"
       },
       "dark_green_Progress": {
@@ -66413,6 +66988,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_Progress"
       },
       "dark_green_TooltipArrow": {
@@ -66546,6 +67123,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_TooltipArrow"
       },
       "dark_green_SliderTrack": {
@@ -66679,6 +67258,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_SliderTrack"
       },
       "dark_green_Input": {
@@ -66812,6 +67393,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_Input"
       },
       "dark_green_TextArea": {
@@ -66945,6 +67528,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_TextArea"
       },
       "dark_green_Button": {
@@ -67078,6 +67663,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_Button"
       },
       "dark_green_SliderTrackActive": {
@@ -67211,6 +67798,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_SliderTrackActive"
       },
       "dark_green_Checkbox": {
@@ -67344,6 +67933,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_Checkbox"
       },
       "dark_green_Switch": {
@@ -67477,6 +68068,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_Switch"
       },
       "dark_green_TooltipContent": {
@@ -67610,6 +68203,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_TooltipContent"
       },
       "dark_green_RadioGroupItem": {
@@ -67743,6 +68338,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_RadioGroupItem"
       },
       "dark_green_SwitchThumb": {
@@ -67876,6 +68473,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_SwitchThumb"
       },
       "dark_green_SliderThumb": {
@@ -68009,6 +68608,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_SliderThumb"
       },
       "dark_green_Tooltip": {
@@ -68142,6 +68743,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_Tooltip"
       },
       "dark_green_ProgressIndicator": {
@@ -68275,6 +68878,8 @@
         "accent10": "hsla(0, 0%, 50%, 1)",
         "accent11": "hsla(0, 0%, 42%, 1)",
         "accent12": "hsla(0, 0%, 9%, 1)",
+        "primary": "#2575FC",
+        "primaryText": "#FFFFFF",
         "id": "dark_green_ProgressIndicator"
       }
     },
@@ -69026,6 +69631,22 @@
           "key": "$4.5",
           "name": "c-size-4--5",
           "val": 48,
+          "variable": ""
+        }
+      },
+      "colors": {
+        "primary": {
+          "isVar": true,
+          "key": "$primary",
+          "name": "c-colors-primary",
+          "val": "#2575FC",
+          "variable": ""
+        },
+        "secondary": {
+          "isVar": true,
+          "key": "$secondary",
+          "name": "c-colors-secondary",
+          "val": "#6A11CB",
           "variable": ""
         }
       }
@@ -69865,6 +70486,20 @@
         "key": "$4.5",
         "name": "c-size-4--5",
         "val": 48,
+        "variable": ""
+      },
+      "$colors.primary": {
+        "isVar": true,
+        "key": "$primary",
+        "name": "c-colors-primary",
+        "val": "#2575FC",
+        "variable": ""
+      },
+      "$colors.secondary": {
+        "isVar": true,
+        "key": "$secondary",
+        "name": "c-colors-secondary",
+        "val": "#6A11CB",
         "variable": ""
       }
     },
