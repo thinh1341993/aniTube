@@ -6,15 +6,17 @@ import {
   ThemeProvider,
 } from "@react-navigation/native";
 import { useFonts } from "expo-font";
-import { Slot } from "expo-router";
+import { router, Slot } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
 import "react-native-reanimated";
 
 import { useColorScheme } from "@/components/useColorScheme";
-import { RootStoreProvider } from "@/stores/storeProvider";
+import { RootStoreProvider, useStores } from "@/stores/storeProvider";
 import { TamaguiProvider } from "tamagui";
 import { tamaguiConfig } from "../tamagui.config";
+import { GlobalAlertDialog } from "@/components/ui/GlobalAlertDialog";
+import { GlobalSpinner } from "@/components/ui/GlobalSpinner";
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -36,6 +38,7 @@ export default function RootLayout() {
     InterBold: require("@tamagui/font-inter/otf/Inter-Bold.otf"),
     ...FontAwesome.font,
   });
+  const { authStore } = useStores();
 
   // Expo Router uses Error Boundaries to catch errors in the navigation tree.
   useEffect(() => {
@@ -43,8 +46,19 @@ export default function RootLayout() {
   }, [error]);
 
   useEffect(() => {
-    if (loaded) {
+    const autoLogin = async () => {
+      const error = await authStore.loadUser();
       SplashScreen.hideAsync();
+      if (error) {
+        router.replace("/login");
+      } else {
+        // Chuyển hướng đến màn hình chính
+        router.replace("/(tabs)/tabOne");
+      }
+    };
+
+    if (loaded) {
+      autoLogin();
     }
   }, [loaded]);
 
@@ -65,6 +79,8 @@ function RootLayoutNav() {
           value={colorScheme === "dark" ? DarkTheme : DefaultTheme}
         >
           <Slot />
+          <GlobalAlertDialog />
+          <GlobalSpinner />
         </ThemeProvider>
       </TamaguiProvider>
     </RootStoreProvider>

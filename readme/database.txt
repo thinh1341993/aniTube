@@ -1,0 +1,32 @@
+a. Collection: users
+Lưu trữ thông tin của từng người dùng.
+Mỗi tài liệu trong collection này đại diện cho một người dùng.
+{
+    "uid": "user123",
+    "email": "user@example.com",
+    "displayName": "John Doe",
+    "photoURL": "https://example.com/avatar.jpg",
+    "friends": ["friendUID1", "friendUID2"], // Danh sách bạn bè
+    "createdAt": "timestamp"
+ }
+
+b. Collection: conversations
+Lưu trữ thông tin về các cuộc trò chuyện giữa các người dùng.
+Mỗi tài liệu trong collection này đại diện cho một cuộc trò chuyện.
+{
+  "conversationId": "conv456",
+  "participants": ["user123", "friendUID1"], // Người tham gia cuộc trò chuyện
+  "lastMessage": "Hello!", // Tin nhắn cuối cùng
+  "lastMessageTime": "timestamp" // Thời gian tin nhắn cuối cùng
+}
+
+Collection: messages
+Lưu trữ tất cả các tin nhắn trong một cuộc trò chuyện.
+Mỗi tài liệu trong collection này đại diện cho một tin nhắn.
+{
+  "messageId": "msg789",
+  "conversationId": "conv456",
+  "senderId": "user123",
+  "text": "Hello!",
+  "timestamp": "timestamp"
+}

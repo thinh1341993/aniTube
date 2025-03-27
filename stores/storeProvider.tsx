@@ -1,13 +1,17 @@
 import { createContext, useContext } from "react";
-import { AuthStore } from "./authStore.ts";
+import { AuthStore, authStore } from "./authStore";
+import { panelsStore, PanelsStore } from "./panelsStore";
 
-interface RootStore {
+export class RootStore {
   authStore: AuthStore;
+  panelsStore: PanelsStore;
+  constructor() {
+    this.authStore = authStore;
+    this.panelsStore = panelsStore;
+  }
 }
 
-export const rootStore: RootStore = {
-  authStore: new AuthStore(),
-};
+export const rootStore = new RootStore();
 
 /**
  * Create a context we can use to
@@ -15,7 +19,7 @@ export const rootStore: RootStore = {
  * - Consume stores in our screens (or other components, though it's
  *   preferable to just connect screens)
  */
-const RootStoreContext = createContext<RootStore>({} as RootStore);
+const RootStoreContext = createContext<RootStore>(rootStore);
 
 /**
  * The provider our root component will use to expose the root store
